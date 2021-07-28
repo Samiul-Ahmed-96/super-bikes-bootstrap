@@ -194,7 +194,6 @@ h6 {
 }
 
 /* clients */
-
 .clients img {
 	width: 149px;
 	height: 149px;
@@ -240,4 +239,11 @@ h6 {
 	color: #252B42;
 	font-size: 14px;
 	font-weight: 600;
+}
+
+/* Question */
+.ques-btn {
+	background: #E76F51;
+	color: #fff;
+	border: none;
 }
