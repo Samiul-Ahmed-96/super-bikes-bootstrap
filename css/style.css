@@ -317,3 +317,35 @@ label {
 	font-size: 30px;
 	background: none;
 }
+
+/* hero */
+.hero {
+	background: #264653;
+}
+
+.left-hero h5 {
+	font-weight: 300;
+	font-size: 14px;
+	color: #fff;
+}
+
+.left-hero h1 {
+	font-weight: 600;
+	font-size: 48px;
+	color: #fff;
+}
+
+.left-hero p {
+	font-weight: 300;
+	font-size: 16px;
+	color: #E0E0E0;
+}
+
+.left-hero button {
+	background: #E76F51;
+	font-size: 16px;
+}
+
+.right-hero img {
+	width: 100%;
+}
