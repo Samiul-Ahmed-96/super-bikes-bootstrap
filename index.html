@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Super Bikes</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,10 +14,8 @@
 		<!-- CSS here -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
-
         <!-- Add your site or application content here -->
         <!-- header-start -->
         <header>
@@ -31,16 +29,22 @@
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                           <ul class="navbar-nav">
                             <li class="nav-item">
-                              <a class="nav-link text-white fw-bold active" aria-current="page" href="#">Home</a>
+                              <a class="nav-link text-white fw-bold active" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link text-white fw-bold" href="#">Shop</a>
+                              <a class="nav-link text-white fw-bold" href="#featured">Featured</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link text-white fw-bold" href="#">News</a>
+                              <a class="nav-link text-white fw-bold" href="#news">News</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white fw-bold" href="#">Contact</a>
+                                <a class="nav-link text-white fw-bold" href="#client">Clients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-bold" href="#Question">Questions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-bold" href="#contact">Contact</a>
                             </li>
                             <button class="btn mx-3 login-btn fw-bold fs-6 text-white">Login</button>
                           </ul>
@@ -92,7 +96,7 @@
         <!-- header-end -->
         <main>
             <!-- featured-start -->
-            <section class="featured my-5">
+            <section class="featured my-5" id="featured">
                 <div class="container">
                     <div class="section-title my-5 text-center">
                         <h1>Fetured Bikes 2021</h1>
@@ -119,10 +123,10 @@
             </section>
             <!-- featured-start -->
             <!-- news-start -->
-            <section class="news my-5">
+            <section class="news my-5" id="news">
                 <div class="container">
                     <div class="section-title my-5 text-center">
-                        <h1 class="capitalize">latest <span>News</span></h1>
+                        <h1 class="capitalize">Latest <span>News</span></h1>
                     </div>
                     <div class="row">
                         <div class="col-xl-4 col-md-6 col-sm-12">
@@ -166,7 +170,7 @@
             </section>
             <!-- news-end -->
             <!-- client-start -->
-            <section class="client">
+            <section class="client" id="client">
                 <div class="container">
                     <div class="section-title my-5 text-center">
                         <h1 class="capitalize">Happy <span>Clients says</span></h1>
@@ -231,7 +235,7 @@
             </section>
             <!-- client-end -->
             <!-- question-start -->
-            <section class="questions">
+            <section class="questions" id="Question">
                 <div class="container">
                     <div class="section-title my-5 text-center">
                         <h1 class="capitalize">Frequently Asked <span> Questions</span></h1>
@@ -239,7 +243,7 @@
                     <div class="row d-flex align-items-center">
                         <div class="col-xl-6 col-md-6 col-sm-12">
                             <div class="left-item my-5">
-                                <img class="w-100" src="img/header-bike.png" alt="">
+                                <img class="w-100" src="img/moto-red.png" alt="">
                             </div>
                         </div>
                         <div class="col-xl-6 col-md-6 col-sm-12">
@@ -344,7 +348,7 @@
             </section>
             <!-- gallery-end -->
             <!-- contact-start -->
-            <section class="contact">
+            <section class="contact" id="contact">
                 <div class="container">
                     <div class="section-title my-5 text-center">
                         <h1 class="capitalize">Contact <span>Us</span></h1>
@@ -363,8 +367,49 @@
             </section>
             <!-- contact-end -->
         </main>
-
-
+        <!-- footer-start -->
+        <footer>
+            <section class="footer mt-5 p-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="footer-left">
+                                <img class="w-25" src="img/logo.png" alt="">
+                                <h2>Super bikes</h2>
+                                <p>Superbike racing is a category of motorcycle racing that employs highly modified production motorcycles, as opposed to MotoGP in which purpose-built motorcycles are used </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="footer-right">
+                                <h2>Menu</h2>
+                                <ul>
+                                    <li><a href="#">home</a></li>
+                                    <li><a href="#">featured</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">clients</a></li>
+                                    <li><a href="#">Question</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="footer-links">
+                                <h2>Quick Links</h2>
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
+                                </ul>
+                                <p class="mt-5">Designed By Md. Samiul Ahmed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <!-- footer-end -->
         
 
 		<!-- JS here -->
